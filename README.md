@@ -22,9 +22,9 @@ Neste terceiro desafio do curso DevQuest, o objetivo é resolver as novas solici
 
 ### Captura-de-tela 
 
-- URL screenshot 1: [Desktop](https://github.com/peterdouglas08/quest-03-js-avancado/issues/1#issue-1948250442)
-- URL screenshot 2: [Mobile](https://github.com/peterdouglas08/quest-03-js-avancado/issues/2#issue-1948252110)
-- URL screenshot 3: [Tablet](https://github.com/peterdouglas08/quest-03-js-avancado/issues/3#issue-1948252571)
+- URL screenshot 1: [Desktop](https://github.com/peterdouglas08/quest-03-js-avancado/issues/1#issue-1971332671)
+- URL screenshot 2: [Mobile](https://github.com/peterdouglas08/quest-03-js-avancado/issues/3#issue-1971334528)
+- URL screenshot 3: [Tablet](https://github.com/peterdouglas08/quest-03-js-avancado/issues/2#issue-1971333870)
 
 
 ### Links
