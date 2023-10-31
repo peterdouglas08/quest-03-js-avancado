@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: var(--dark-color);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0 0;
+}
+
+.devicon-github-original {
+    color: var(--light-color);
+    font-size: 60px;
+    margin: 0 0 30px;
+}
+
+.section {
+    padding: 40px 0;
+    min-width: 800px;
+}
+
+.container {
+    width: 60%;
+    max-width: 950px;
+    background-color: var(--light-color);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.container header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.container header h2 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.container header #input-search {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.container header #btn-search {
+    width: 95px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+    background-color: var(--btn-color);
+    cursor: pointer;
+}
+
+.container header #btn-search:hover {
+    background-color: var(--layout-color);
+    color: var(--light-color);
+}
+
+.container .profile-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.container .profile-data .info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container .profile-data .info .data {
+    padding: 40px;
+    width: 50%;
+}
+
+.container .profile-data .info img {
+    width: 40%;
+    border-radius: 50%;
+    border: 7px solid var(--layout-color);
+}
+.container .profile-data .info h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.container .profile-data .info p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.container .profile-data .info .data .follows {
+    display: flex;
+    border: 2px solid var(--layout-color);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 15px;
+}
+
+/* REPOSITORIES */
+
+.container .profile-data .repositories h2 {
+    font-size: 25px;
+    font-weight: 700;
+    background-color: var(--layout-color);
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container .profile-data .repositories ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .profile-data .repositories ul li a {
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    margin: 20px;
+    display: block;
+    border-radius: 7px;
+    color: #555555;
+}
+
+.container .profile-data .repositories ul li a:hover {
+    background-color: var(--layout-color);
+    color: var(--light-color);
+}
+
+.container .profile-data .repositories ul li a:hover h3 {
+    color: var(--light-color);
+}
+
+.container .profile-data .repositories ul li a .repo-icones {
+    background-color: var(--repo-color);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.container .profile-data .repositories ul li a .repo-icons i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container .profile-data .events.section ul li b{
+    font-weight: 700;
+}
+.container .profile-data.hide {
+    display: none;
+}
+
+.container .profile-data .events h2 {
+    font-size: 25px;
+    font-weight: 700;
+    background-color: var(--layout-color);
+    border-radius: 5px;
+    color: var(--light-color);
+}
+
+.container .profile-data .events ul li {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.container .profile-data .events ul li strong {
+    font-weight: 700;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1280px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    .container header {
+        width: 100%;
+    }
+
+    .container header h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container header #input-search,
+    .container header #btn-search {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 425px) {
+    main {
+        padding: 15% 0;
+    }
+
+    .container .profile-data .info img {
+        margin-bottom: 20px;
+    }
+
+    .container .profile-data .info img,
+    .container .profile-data .info .data {
+        width: 100%;
+        padding: 0;
+    }
+}

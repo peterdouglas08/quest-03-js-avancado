@@ -1,0 +1,8 @@
+:root{
+    --layout-color: rgb(143, 0, 0);
+    --dark-color: #555555;
+    --light-color: #fff;
+    --border-color: grey;
+    --btn-color: #ccc;
+    --repo-color: #ddd;
+}
