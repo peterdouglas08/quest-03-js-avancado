@@ -1,4 +1,4 @@
-import { baseUrl } from "/src/scripts/variables.js"
+import { baseUrl } from "../variables.js"
 
 // FUNÇÃO QUE BUSCA OS USUÁRIOS NO GITHUB
 async function getUser(userName) {
